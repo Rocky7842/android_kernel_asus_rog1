@@ -92,7 +92,7 @@
 /delete-node/ &gpio_keys;
 
 &soc {
-	gpio_keys: gpio_keys_asus {
+	gpio_keys {
 		compatible = "gpio-keys";
 		label = "gpio-keys";
 

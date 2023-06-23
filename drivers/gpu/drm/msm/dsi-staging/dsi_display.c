@@ -1085,6 +1085,7 @@ int dsi_display_set_power(struct drm_connector *connector,
 
 	switch (power_mode) {
 	case SDE_MODE_DPMS_LP1:
+		printk("[Rocky7842] SDE_MODE_DPMS_LP1, g_enter_AOD=%d\n", g_enter_AOD);
 		if(!g_enter_AOD) {
 			set_dimming_mode(0);
 
@@ -1111,9 +1112,11 @@ int dsi_display_set_power(struct drm_connector *connector,
 		dsi_panel_set_backlight(display->panel, g_alpm_bl);
 		break;
 	case SDE_MODE_DPMS_LP2:
+		printk("[Rocky7842] SDE_MODE_DPMS_LP2, g_enter_AOD=%d\n", g_enter_AOD);
 		rc = dsi_panel_set_lp2(display->panel);
 		break;
 	default:
+		printk("[Rocky7842] SDE_MODE_DPMS_defualt, g_enter_AOD=%d\n", g_enter_AOD);
 		if(g_enter_AOD) {
 			g_alpm_mode = 0;
 			gAODBL = true;

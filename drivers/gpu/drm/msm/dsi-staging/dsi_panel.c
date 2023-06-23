@@ -3749,6 +3749,8 @@ int dsi_panel_set_lp1(struct dsi_panel *panel)
 {
 	int rc = 0;
 
+	printk("[Rocky7842] Entering dsi_panel_set_lp1\n");
+
 	if (!panel) {
 		pr_err("invalid params\n");
 		return -EINVAL;
@@ -3777,15 +3779,21 @@ int dsi_panel_set_lp1(struct dsi_panel *panel)
 	if (rc)
 		pr_err("[%s] failed to send DSI_CMD_SET_LP1 cmd, rc=%d\n",
 		       panel->name, rc);
-	
+
+	printk("[Rocky7842] Calling fts_ts_suspend from dsi_panel_set_lp1\n");
 	fts_ts_suspend();
 	mutex_unlock(&panel->panel_lock);
+
+	printk("[Rocky7842] Leaving dsi_panel_set_lp1\n");
+
 	return rc;
 }
 
 int dsi_panel_set_lp2(struct dsi_panel *panel)
 {
 	int rc = 0;
+
+	printk("[Rocky7842] Entering dsi_panel_set_lp2\n");
 
 	if (!panel) {
 		pr_err("invalid params\n");
@@ -3800,15 +3808,21 @@ int dsi_panel_set_lp2(struct dsi_panel *panel)
 	if (rc)
 		pr_err("[%s] failed to send DSI_CMD_SET_LP2 cmd, rc=%d\n",
 		       panel->name, rc);
-	
+
+	printk("[Rocky7842] Calling fts_ts_suspend from dsi_panel_set_lp2\n");
 	fts_ts_suspend();
 	mutex_unlock(&panel->panel_lock);
+
+	printk("[Rocky7842] Leaving dsi_panel_set_lp2\n");
+
 	return rc;
 }
 
 int dsi_panel_set_nolp(struct dsi_panel *panel)
 {
 	int rc = 0;
+
+	printk("[Rocky7842] Entering dsi_panel_set_nolp\n");
 
 	if (!panel) {
 		pr_err("invalid params\n");
@@ -3838,10 +3852,13 @@ int dsi_panel_set_nolp(struct dsi_panel *panel)
 	if (rc)
 		pr_err("[%s] failed to send DSI_CMD_SET_NOLP cmd, rc=%d\n",
 		       panel->name, rc);
-	
+	printk("[Rocky7842] Calling fts_ts_resume from dsi_panel_set_nolp\n");
 	fts_ts_resume();
 	panelOff = false;
 	mutex_unlock(&panel->panel_lock);
+
+	printk("[Rocky7842] Leaving dsi_panel_set_nolp\n");
+
 	return rc;
 }
 

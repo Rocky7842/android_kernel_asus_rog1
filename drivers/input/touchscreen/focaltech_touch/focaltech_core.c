@@ -2152,8 +2152,11 @@ static void focal_resume_work(struct work_struct *work)
     return 0;
 }*/
 int fts_ts_suspend(void)
-{	
+{
 	int rc =1;
+	
+	printk("[Rocky7842] Entering fts_ts_suspend\n");
+
 	if (station_touch.station_disable_touch_function){
 		station_touch.station_disable_touch_function(true);
 		printk("[fts][touch] disable station touch ! \n");
@@ -2171,6 +2174,9 @@ int fts_ts_suspend(void)
 		printk("[FTS][touch]%s: no station touch skip station_touch suspend \n",__func__);
 
 	//queue_work(fts_wq_data->suspend_resume_wq, &fts_wq_data->suspend_work);
+
+	printk("[Rocky7842] Leaving fts_ts_suspend\n");
+
 	return 0;	
 }
 EXPORT_SYMBOL(fts_ts_suspend);
@@ -2186,6 +2192,9 @@ int fts_ts_resume(void)
 {
 	//focal_resume_work();
 	int rc =1;
+
+	printk("[Rocky7842] Entering fts_ts_resume\n");
+
 	if (focal_init_success==1)
 		queue_work(fts_data->suspend_resume_wq, &fts_data->resume_work);
 	else
@@ -2199,6 +2208,9 @@ int fts_ts_resume(void)
 		printk("[FTS][touch]%s: no station touch skip station_touch resume \n",__func__);
 
 	//queue_work(fts_wq_data->suspend_resume_wq, &fts_wq_data->suspend_work);
+
+	printk("[Rocky7842] Leaving fts_ts_resume\n");
+
 	return 0;
 
 }

@@ -1,0 +1,489 @@
+06-27 00:27:46.693  1696  2000 D Telecom : TelecomServiceImpl: isRinging callingPackage = android
+06-27 00:27:46.694  1696  2000 D Telecom : TelecomServiceImpl: isPrivilegedDialerCalling = android: TSI.iR@Ah0
+06-27 00:27:46.694  1696  2000 I PowerManagerService: wakeUp uid=1000, reason=android.policy:POWER, mDockState=0
+06-27 00:27:46.694  1696  2000 I PowerManagerService: Waking up from dozing (uid=1000 reason=android.policy:POWER)...
+06-27 00:27:46.695  1696  1837 D DisplayPowerController: ASUS BL autoBrightnessEnabled is disable useAB:true state:4 ABinDoze:false brightness:-1
+06-27 00:27:46.695  1696  1696 W UsageStatsService: Event reported without a package name
+06-27 00:27:46.696  1696  1837 D AutomaticBrightnessController: ASUS BL configure enable:false displayPolicy:1 mLightSensorEnabled:false
+06-27 00:27:46.696  1696  1837 D DisplayPowerController: bern:: ASUS BL brightness is lower than zero, set brightness to 0, state:4
+06-27 00:27:46.696  1696  1696 D OptiFlexService: [hold] isAwake = true
+06-27 00:27:46.696  1696  1837 D DisplayPowerController: Unfinished business...
+06-27 00:27:46.696  1696  1837 D DisplayPowerController: ASUS BL autoBrightnessEnabled is disable useAB:true state:4 ABinDoze:false brightness:-1
+06-27 00:27:46.696  1696  1837 D AutomaticBrightnessController: ASUS BL configure enable:false displayPolicy:1 mLightSensorEnabled:false
+06-27 00:27:46.696  1696  1837 D DisplayPowerController: bern:: ASUS BL brightness is lower than zero, set brightness to 0, state:4
+06-27 00:27:46.696  1696  1837 D DisplayPowerController: Finished business...
+06-27 00:27:46.699  1696  2000 D PowerManagerService: needDisplaySuspendBlocker acquire wakelock
+06-27 00:27:46.700  3070  3070 D StatusBar: handleSystemKey: 26
+06-27 00:27:46.700   705   705 I QTI PowerHAL: Got set_interactive hint
+06-27 00:27:46.700  3070  3070 D keyguard: AsusFuManager:onPowerKeyDown: S
+06-27 00:27:46.701   722   763 E ANDR-PERF-RESOURCEQS: Failed to apply optimization [2, 0]
+06-27 00:27:46.697 10449 10449 W wk:do_write_ev: type=1400 audit(0.0:918): avc: denied { chown } for capability=0 scontext=u:r:kernel:s0 tcontext=u:r:kernel:s0 tclass=capability permissive=0
+06-27 00:27:46.730  1696  1696 E WakeGestureListener: cancelWakeUpTrigger
+06-27 00:27:46.730  1696  1696 E WakeGestureListener: cancelWakeUpTrigger
+06-27 00:27:46.730  1696  1696 E WindowManager: Cancel all lift to wake WakeUp
+06-27 00:27:46.730  1696  1696 I SensorService: [SensorN] createSensorEventConnection, uid=1000, pid=1696
+06-27 00:27:46.730  3070  3070 D StatusBar: handleSystemKey: 837
+06-27 00:27:46.731  1696  1696 I SensorService: [SensorN] EnableSensor, type=1, uid=1000, pid=1696
+06-27 00:27:46.732   706  1983 E         : [SSC_HAL] batch, type=android.sensor.accelerometer, period=66(ms), timeout=100(ms)
+06-27 00:27:46.732   706  1983 E         : [SSC_HAL] activate, type=android.sensor.accelerometer, Enable
+06-27 00:27:46.732   706  1983 I SSC_HAL : ssc_enable_rt_task:262, ssc_enable_rt_task : true
+06-27 00:27:46.739  1696  1837 I DisplayPowerController: Blocking screen off
+06-27 00:27:46.739  1696  1837 I DisplayPowerController: Unblocked screen off after 1 ms
+06-27 00:27:46.740  1696  1837 I SensorService: [SensorN] DisableSensor, type=1, uid=1000, pid=1696
+06-27 00:27:46.740   706  1983 E         : [SSC_HAL] activate, type=android.sensor.accelerometer, Disable
+06-27 00:27:46.740  3070  3461 D KeyguardViewMediator: onStartedWakingUp, seq = 16
+06-27 00:27:46.740  3070  3461 D KeyguardViewMediator: notifyStartedWakingUp
+06-27 00:27:46.741  3070  3070 D KeyguardViewMediator: handleNotifyWakingUp
+06-27 00:27:46.741  1696  1696 D AlarmManager: onReceive SCREEN ON
+06-27 00:27:46.741  3070  3070 D keyguard: KeyguardUpdateMonitor:handleStartedWakingUp
+06-27 00:27:46.741  3070  3070 D keyguard: KeyguardUpdateMonitor:shouldListenForFingerprint<VoIbgstouda>
+06-27 00:27:46.741  3070  3070 D keyguard: KeyguardUpdateMonitor:updateFingerprintListeningState should=false, state=0
+06-27 00:27:46.742  3070  3070 D keyguard: AsusFuManager:onStartedWakingUp, mIsVisibletrue
+06-27 00:27:46.742  3070  3070 D keyguard: AsusFingerprintSupportManager:onStartedWakingUp()
+06-27 00:27:46.742  3070  3070 D AsusGestureManager: onStartedWakingUp()
+06-27 00:27:46.742  3070  3070 D keyguard: AsusKeyguardDrawingCacheManager:onStartedWakingUp()
+06-27 00:27:46.742  3070  3070 D keyguard: AsusAlwaysOnManager:updateAlwaysOnServiceState state:5203
+06-27 00:27:46.742  3070  3070 V KeyguardStatusView: Schedule setEnableMarquee: Enable
+06-27 00:27:46.742  3485  3485 I AlwaysOn:CommonUtils:  ==> support this feaure: true ...
+06-27 00:27:46.743  3485  3485 D AlwaysOn:CommonUtils:  get always on. (result=true) ...
+06-27 00:27:46.743  3485  3485 D AlwaysOn:ShowAlwaysOnView: showHideOverlay:true
+06-27 00:27:46.744  3485  3485 I AlwaysOn:AlwaysOnViewManager:  [VM] updateViewLayout():
+06-27 00:27:46.744  1696  2898 D WifiStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED rt=954015/954015 1 0
+06-27 00:27:46.744  3485  3485 I AlwaysOn:AlwaysOnViewManager:  [VM] updateViewLayout(): result=true, view is added=true ...
+06-27 00:27:46.744  1696  2898 E WifiStateMachine: getWifiLinkLayerStats called without an interface
+06-27 00:27:46.744  1696  2898 D WifiStateMachine:  DefaultState !CMD_ENABLE_RSSI_POLL rt=954015/954015 1 0
+06-27 00:27:46.744  1696  2898 D WifiStateMachine:  DefaultState !CMD_SET_SUSPEND_OPT_ENABLED rt=954015/954015 0 0
+06-27 00:27:46.745  1696  1837 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+06-27 00:27:46.746  1696  1819 D BatteryExternalStatsWorker: updateExternalStatsLocked updateFlags=1
+06-27 00:27:46.746  1696  1837 D AutomaticBrightnessController: ASUS BL setLightSensorEnabled is true
+06-27 00:27:46.746  1696  1837 I SensorService: [SensorN] createSensorEventConnection, uid=1000, pid=1696
+06-27 00:27:46.746  1696  1837 I SensorService: [SensorN] EnableSensor, type=5, uid=1000, pid=1696
+06-27 00:27:46.746  3070  3461 D KeyguardViewMediator: notifyScreenTurnedOff
+06-27 00:27:46.747  3070  3461 D KeyguardViewMediator: notifyScreenOn
+06-27 00:27:46.764   706  1983 E ALSPS_HAL: [Sensor_TEST] PS/ALS Sensor : (10/9/12) setDelay(9)
+06-27 00:27:46.764   706  1983 D ALSPS_HAL: LightSensor: set EVIOCSCLOCKID = 1
+06-27 00:27:46.767  3485  3485 I AlwaysOn:AlwaysOnService:  onReceive(): action=android.intent.action.SCREEN_ON
+06-27 00:27:46.767   706  1983 E ALSPS_HAL: [Sensor_HAL] LightSensor: switch lsensor on OK!
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: Apply Golden value frgb_ratio[0] = 0.173000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: Apply Golden value frgb_ratio[1] = 1.000000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: Apply Golden value frgb_ratio[2] = 0.114000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: frgb_ratio[0] = 0.173000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: frgb_ratio[1] = 1.000000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: frgb_ratio[2] = 0.114000
+06-27 00:27:46.768   706  1983 E ALSPS_HAL: [Sensor_HAL] FrontSensor: switch frgbsensor on OK!
+06-27 00:27:46.768  1696  1837 D DisplayPowerController: ASUS BL brightness is lower than zero, autoBrightnessEnabled:true brightness:40
+06-27 00:27:46.769  1696  1837 D DisplayPowerController: Unfinished business...
+06-27 00:27:46.769  1696  1837 D DisplayPowerController: ASUS BL brightness is lower than zero, autoBrightnessEnabled:true brightness:40
+06-27 00:27:46.769   748   748 E SurfaceFlinger: [Display] exit from AOD
+06-27 00:27:46.769   748   748 D SurfaceFlinger: Set power mode=0, type=0 flinger=0x74f1255000
+06-27 00:27:46.769  1696  1834 I DisplayManagerService: Display device changed state: "內建畫面", ON
+06-27 00:27:46.770  1696  3029 D InadvertentTouchController: <MSG_DISPLAY_CHANGED> mInadvertentTouchEnable or mCompleteSetupWizard false. return
+06-27 00:27:46.775   700   885 I SDM     : DisplayBase::SetDisplayState: Set state = 0, display 26-0
+06-27 00:27:46.775  3388  3388 I NearbyDiscovery: (REDACTED) FastPairDisplayObserver: %s -> %s
+06-27 00:27:46.777  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 00:27:46.778  1696  2000 I InputReader: Reconfiguring input devices.  changes=0x00000004
+06-27 00:27:46.778  3388  3388 I NearbyDirect: (REDACTED) FastPairDisplayObserver: %s -> %s
+06-27 00:27:46.779  1464  1464 D FingerGoodix: [sig_handler         ]SIGIO: sem_value == 0
+06-27 00:27:46.779  1464  1464 D FingerGoodix: [sig_handler         ]g_mode = 0x4(GF_NAG_MODE); g_state = 0x0(GF_HAL_IDLE)
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [sig_handler_loop    ]value == 0
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [sig_handler_loop    ]screen on ------> screen off
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [notifyClient        ]notifyClient,type:8(MSG_TYPE_COMMON_SCREEN_STATUS_CHANGE),msg:1,ext:0,clientID:0
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [notifyClient        ]Current screen status:SCREEN OFF,recognize retry times:3
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [notifyScreenChanged ]MSG_TYPE_COMMON_SCREEN_STATUS_CHANGE, status=1
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [setDefaultMode      ]setDefaultMode(), modeflag = 2
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [setChipMode         ]setChipMode = 4(FINGERPRINT_CHIP_NAG_MODE)
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:46.780  1464  1691 D FingerGoodix: [device_setMode      ] Set mode : 4
+06-27 00:27:46.780  1696  2904 D WigigStateMachine: handleMessage: E msg.what=14221407
+06-27 00:27:46.781  1696  2904 D WigigStateMachine: processMsg: InitialState
+06-27 00:27:46.781  1696  2904 D WigigStateMachine:  InitialState CMD_SCREEN_STATE_CHANGED
+06-27 00:27:46.781  1696  2904 D WigigStateMachine: processMsg: DefaultState
+06-27 00:27:46.781  1696  2904 D WigigStateMachine:  DefaultState CMD_SCREEN_STATE_CHANGED
+06-27 00:27:46.781  1696  2904 E WigigStateMachine: Error! unhandled message{ when=-1ms what=14221407 target=com.android.internal.util.StateMachine$SmHandler }
+06-27 00:27:46.781  1696  2904 D WigigStateMachine: handleMessage: X
+06-27 00:27:46.782  3388  4832 D BluetoothAdapter: isLeEnabled(): ON
+06-27 00:27:46.782   702   702 D qdlights: vled_off by idx=1
+06-27 00:27:46.783   746   746 V AudioFlinger: setParameters(): io 0, keyvalue screen_state=on, calling pid 1696 calling uid 1000
+06-27 00:27:46.783   746   746 V AudioFlinger: setParameters: filtered keyvalue screen_state=on
+06-27 00:27:46.783  3388  4888 I Nearby  : (REDACTED) [MBleClient] Start ble scanning from %s, context tag = %s
+06-27 00:27:46.783   690  2931 E modules.usbaudio.audio_hal: adev_set_parameters: enter: screen_state=on
+06-27 00:27:46.783  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, bleScanAvailable=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+06-27 00:27:46.784  3388  4888 D BluetoothLeScanner: App 'com.google.android.gms' stopScan
+06-27 00:27:46.784  3388  4888 D BluetoothAdapter: isLeEnabled(): ON
+06-27 00:27:46.784  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 00:27:46.785  3042  3053 D BtGatt.GattService: stopScan() - queue size =1
+06-27 00:27:46.785  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: Start scanning internally in %s
+06-27 00:27:46.785  1696  1696 I DeviceIdleController: becomeActiveLocked, reason = screen
+06-27 00:27:46.785  3388  4832 D BluetoothLeScanner: App 'com.google.android.gms' startScan
+06-27 00:27:46.786  3388  4832 D BluetoothAdapter: isLeEnabled(): ON
+06-27 00:27:46.786  3042  3053 D BtGatt.GattService: unregisterScanner() - scannerId=5
+06-27 00:27:46.786  3042  3510 D BtGatt.ScanManager: stop scan
+06-27 00:27:46.787  1696  1696 E NetdConnector: SND -> {50 interface list}
+06-27 00:27:46.787  3388  4888 I Nearby  : (REDACTED) [MBleClient] M hardware scan: %d clients, scanMode= %s, filters size = %s
+06-27 00:27:46.787  3388  4888 D BluetoothLeScanner: App 'com.google.android.gms' startScan
+06-27 00:27:46.787  3388  4888 D BluetoothAdapter: isLeEnabled(): ON
+06-27 00:27:46.788  3042  3053 D BtGatt.GattService: registerScanner() - UUID=27acad33-1825-49fa-8382-b1965293cba9
+06-27 00:27:46.788  1696  2892 E NetdConnector: RCV <- {110 50 bond0}
+06-27 00:27:46.788  3042  3660 I bt_stack: [INFO:gatt_api.cc(949)] GATT_Registerdbc3d482-83c9-aae1-b8b1-f6d4ebb5c710
+06-27 00:27:46.789  3042  3660 I bt_stack: [INFO:gatt_api.cc(969)] allocated gatt_if=5
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 dummy0}
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 ip6_vti0}
+06-27 00:27:46.789  3042  3660 E bt_btm  : BTM_BleObserve Observe not active
+06-27 00:27:46.789  3042  3344 D BtGatt.GattService: onScannerRegistered() - UUID=27acad33-1825-49fa-8382-b1965293cba9, scannerId=5, status=0
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 ip6tnl0}
+06-27 00:27:46.789  3388  3416 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=5 mScannerId=0
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 ip_vti0}
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [fnCa_SetMode        ]setMode SUCCESS !!! 4(GF_NAG_MODE)
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 lo}
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [sig_handler_loop    ]g_sensor_status = 0
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [sig_handler_loop    ]sig_handler_loop::screenStatus=1(on:0, off:1), g_mode=4(GF_NAG_MODE),g_state=0(GF_HAL_IDLE)
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [sig_handler_loop    ]===> Get ff property = true, template_count = 0
+06-27 00:27:46.789  1464  1691 D FingerGoodix: [sig_handler_loop    ]screen off : no finger enrolled set SLEEP mode
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data0}
+06-27 00:27:46.789  3042  3053 D BtGatt.GattService: start scan with filters
+06-27 00:27:46.789  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data1}
+06-27 00:27:46.790  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data2}
+06-27 00:27:46.790  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data3}
+06-27 00:27:46.790  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data4}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 bond0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 dummy0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 ip6_vti0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 ip6tnl0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 ip_vti0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 lo}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data0}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data1}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data2}
+06-27 00:27:46.791  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data3}
+06-27 00:27:46.792  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data5}
+06-27 00:27:46.792  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data6}
+06-27 00:27:46.792  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data4}
+06-27 00:27:46.792  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data7}
+06-27 00:27:46.792  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data5}
+06-27 00:27:46.792  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data6}
+06-27 00:27:46.792  1696  2892 E NetdConnector: RCV <- {110 50 r_rmnet_data8}
+06-27 00:27:46.792  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data7}
+06-27 00:27:46.792  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data0}
+06-27 00:27:46.792  1696  1696 E NetdConnector: RMV <- {110 50 r_rmnet_data8}
+06-27 00:27:46.793  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data1}
+06-27 00:27:46.793  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data10}
+06-27 00:27:46.794  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data2}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data3}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data4}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data5}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data6}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data7}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data8}
+06-27 00:27:46.795  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_data9}
+06-27 00:27:46.796  1696  2892 E NetdConnector: RCV <- {110 50 rmnet_ipa0}
+06-27 00:27:46.796  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: Starting %s scan for %s seconds
+06-27 00:27:46.796  3042  3510 D BtGatt.ScanManager: handling starting scan
+06-27 00:27:46.798  3042  3510 D BtGatt.ScanManager: isAptXLowLatencyModeEnabled: false
+06-27 00:27:46.798  3042  3055 D BtGatt.GattService: registerScanner() - UUID=959b59d8-14df-4983-a526-200386ab4d1b
+06-27 00:27:46.799  1464  1691 D FingerGoodix: [fnCa_SetMode        ]setMode SUCCESS !!! 2(GF_SLEEP_MODE)
+06-27 00:27:46.799  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:46.799  1464  1691 D FingerGoodix: [sig_handler_loop    ]#####################handler called.7  g_mode = 2(GF_SLEEP_MODE)  g_state = 0(GF_HAL_IDLE)
+06-27 00:27:46.799  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:46.799  1464  1691 D FingerGoodix: [sig_in_sleep        ]Should not happen. Somthing wrong.
+06-27 00:27:46.799  3042  3660 I bt_stack: [INFO:gatt_api.cc(949)] GATT_Registerc0e88f83-7550-b214-584a-f69275fe8585
+06-27 00:27:46.799  3042  3660 I bt_stack: [INFO:gatt_api.cc(969)] allocated gatt_if=6
+06-27 00:27:46.799  3042  3344 D BtGatt.GattService: onScannerRegistered() - UUID=959b59d8-14df-4983-a526-200386ab4d1b, scannerId=6, status=0
+06-27 00:27:46.799  3388  3416 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=6 mScannerId=0
+06-27 00:27:46.800  3042  3055 D BtGatt.GattService: start scan with filters
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data0}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data1}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data10}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data2}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data3}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data4}
+06-27 00:27:46.803  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data5}
+06-27 00:27:46.804  1696  2892 E NetdConnector: RCV <- {110 50 sit0}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data6}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data7}
+06-27 00:27:46.804  1696  2892 E NetdConnector: RCV <- {200 50 Interface list completed}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data8}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_data9}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 rmnet_ipa0}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {110 50 sit0}
+06-27 00:27:46.804  1696  1696 E NetdConnector: RMV <- {200 50 Interface list completed}
+06-27 00:27:46.805  3042  3344 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=5, status=0, action=1
+06-27 00:27:46.805  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 5 status - 0
+06-27 00:27:46.805  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:46.806  1696  1801 I SensorService: [SensorN] createSensorEventConnection, uid=1000, pid=1696
+06-27 00:27:46.806  1696  1801 I SensorService: [SensorN] EnableSensor, type=5, uid=1000, pid=1696
+06-27 00:27:46.806  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=5, action = 0 status = 0, filterType=6, availableSpace=31
+06-27 00:27:46.806  1696  1801 D GnssLocationProvider: receive broadcast intent, action: android.intent.action.SCREEN_ON
+06-27 00:27:46.806  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 5 status - 0
+06-27 00:27:46.806  1696  1801 I GnssLocationProvider: [GPS][REG] updateLowPowerMode (false, false)
+06-27 00:27:46.807  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.809  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=5, status=0, action=0, availableSpace=15
+06-27 00:27:46.809  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 5 status - 0
+06-27 00:27:46.810  3058  3058 I DeviceStatusMonitor: onReceive() : Action = android.intent.action.SCREEN_ON
+06-27 00:27:46.810  1696  2000 I WindowManager: Suppressed redundant power key press while already in the process of turning the screen on.
+06-27 00:27:46.811  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=5, action = 0 status = 0, filterType=6, availableSpace=30
+06-27 00:27:46.811  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 5 status - 0
+06-27 00:27:46.813  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.815  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=5, status=0, action=0, availableSpace=14
+06-27 00:27:46.815  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 5 status - 0
+06-27 00:27:46.816  3042  3510 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+06-27 00:27:46.816  3042  3510 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=2ScanSetting LE Coded Scan mode=2 mLastConfiguredScanSettingLE1M=-1 mLastConfiguredScanSettingLECoded=-1scanPhy=255
+06-27 00:27:46.817  3042  3510 D BtGatt.ScanManager: configureRegularScanParams - scanInterval LE 1M = 4096configureRegularScanParams - scanWindow LE 1M= 4096configureRegularScanParams - scanInterval LE Coded= 4096configureRegularScanParams - scanWindow LE Coded= 4096
+06-27 00:27:46.818  3042  3660 W bt_btm  : btm_send_hci_scan_enable ble_set_extended_scan_enable: 1
+06-27 00:27:46.818  3042  3660 W bt_btm  : btm_send_hci_scan_enable ble_set_extended_scan_enable: 0
+06-27 00:27:46.818  3042  3660 W bt_btm  : btm_send_hci_scan_enable ble_set_extended_scan_enable: 1
+06-27 00:27:46.818  3042  3510 D BtGatt.ScanManager: handling starting scan
+06-27 00:27:46.818  3042  3344 D BtGatt.GattService: onScanParamSetupCompleted : 0
+06-27 00:27:46.818  3042  3510 D BtGatt.ScanManager: isAptXLowLatencyModeEnabled: false
+06-27 00:27:46.828  1696  1696 D Telecom : AsusTelephonyUtils: isSupportSmartVolumeElseAIRingtoneFeature(): return false
+06-27 00:27:46.828   706   781 E ALSPS_HAL: [Sensor_HAL] Data not ready
+06-27 00:27:46.828   706   781 E ALSPS_HAL: [Sensor_HAL] FRGBSensor: CCT=5542.000000, R raw=126.000000 , G raw=91.000000 , B raw=65.000000 , IR raw=2.000000
+06-27 00:27:46.829  1696  1837 D AutomaticBrightnessController: ASUS BL handleLightSensorEvent time=954100, lux=61.0
+06-27 00:27:46.829  1696  1837 D AutomaticBrightnessController: ASUS BL setAmbientLux:61.0 mBrighteningLuxThreshold:244.0 mDarkeningLuxThreshold:3.0500007
+06-27 00:27:46.829  1696  1837 D AutomaticBrightnessController: ASUS BL updateAmbientLux: Initializing: mAmbientLightRingBuffer=[61.0 / 0ms], mAmbientLux=61.0
+06-27 00:27:46.830  3270  3270 I aptxalsScreenMonitor: EVENT_SCREEN_ON
+06-27 00:27:46.833  3042  3344 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=6, status=0, action=1
+06-27 00:27:46.833  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.836  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=6, action = 0 status = 0, filterType=5, availableSpace=31
+06-27 00:27:46.836  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.836  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.837  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=13
+06-27 00:27:46.837  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.838  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=6, action = 0 status = 0, filterType=2, availableSpace=31
+06-27 00:27:46.838  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.838  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.839  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=12
+06-27 00:27:46.839  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.841  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=6, action = 0 status = 0, filterType=2, availableSpace=30
+06-27 00:27:46.841  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.841  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.841  3485  3485 D FirmwareManager: MyApplication ACTION_SCREEN_ON  mNeedPushSecondaryDisplay: false
+06-27 00:27:46.842  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=11
+06-27 00:27:46.842  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.843  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=6, action = 0 status = 0, filterType=2, availableSpace=29
+06-27 00:27:46.843  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.843  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.844  3485  3485 D CentralControlService: ACTION_SCREEN_ON
+06-27 00:27:46.844  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=10
+06-27 00:27:46.844  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.846  3042  3344 D BtGatt.GattService: onScanFilterConfig() - clientIf=6, action = 0 status = 0, filterType=5, availableSpace=30
+06-27 00:27:46.846  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.846  3042  3510 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 00:27:46.847  3042  3344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=6, status=0, action=0, availableSpace=9
+06-27 00:27:46.847  3042  3344 D BtGatt.ScanManager: callback done for scannerId - 6 status - 0
+06-27 00:27:46.847  3042  3510 D BtGatt.ScanManager: configureRegularScanParams() - queue=2
+06-27 00:27:46.847  3042  3510 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=2ScanSetting LE Coded Scan mode=2 mLastConfiguredScanSettingLE1M=2 mLastConfiguredScanSettingLECoded=2scanPhy=255
+06-27 00:27:46.965  3070  3070 I keyguard: AsusMediator:onKeyguardShowingChanged:true
+06-27 00:27:46.965  3070  3070 I keyguard: AsusKeyguardWallpaper:updateVisible:false isFingerprintUnlocking:false pulsing:false
+06-27 00:27:46.965  3070  3070 I keyguard: AsusSlideshowManager:onKeyguardShowingChanged: showing: true
+06-27 00:27:46.965  3070  3070 I keyguard: AsusSlideshowSettingPanelManager:onKeyguardShowingChanged: showing=true
+06-27 00:27:46.966  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:46.984   700   885 I SDM     : HWCSession::HandleConcurrency: sec_builtin_active 0
+06-27 00:27:46.984   748   748 D SurfaceFlinger: Finished set power mode=0, type=0
+06-27 00:27:46.985   748   748 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x74f1255000
+06-27 00:27:46.985   700   885 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 26-0
+06-27 00:27:46.987  1464  1464 D FingerGoodix: [sig_handler         ]SIGIO: sem_value == 0
+06-27 00:27:46.987  1464  1464 D FingerGoodix: [sig_handler         ]g_mode = 0x2(GF_SLEEP_MODE); g_state = 0x0(GF_HAL_IDLE)
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [sig_handler_loop    ]value == 0
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [sig_handler_loop    ]screen off ------> screen on
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [notifyClient        ]notifyClient,type:8(MSG_TYPE_COMMON_SCREEN_STATUS_CHANGE),msg:0,ext:0,clientID:0
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [notifyClient        ]Current screen status:SCREEN ON,recognize retry times:3
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [notifyScreenChanged ]MSG_TYPE_COMMON_SCREEN_STATUS_CHANGE, status=0
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [setDefaultMode      ]setDefaultMode(), modeflag = 2
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [setChipMode         ]setChipMode = 4(FINGERPRINT_CHIP_NAG_MODE)
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:46.987  1464  1691 D FingerGoodix: [device_setMode      ] Set mode : 4
+06-27 00:27:46.994  1464  1691 D FingerGoodix: [fnCa_SetMode        ]setMode SUCCESS !!! 6(GF_IDLE_MODE)
+06-27 00:27:47.005  1464  1691 D FingerGoodix: [fnCa_SetMode        ]setMode SUCCESS !!! 6(GF_IDLE_MODE)
+06-27 00:27:47.006  3070  3070 V HeadsUpManager: releaseAllImmediately
+06-27 00:27:47.006  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:47.006  3070  3070 D keyguard: AsusMediator:setStatusBarState:1
+06-27 00:27:47.006  3070  3070 I keyguard: AsusKeyguardWallpaper:updateVisible:false isFingerprintUnlocking:false pulsing:false
+06-27 00:27:47.006  3070  3070 D keyguard: AsusKGWallpaperManager:notifyBlurEffect: false <tecl : VEbwf> a: 0.0
+06-27 00:27:47.008  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:47.008  3070  3070 D StatusBar: disable1: 0x00000000 -> 0x00000000 (diff1: 0x00000000)
+06-27 00:27:47.008  3070  3070 D StatusBar: disable2: 0x00000000 -> 0x00000000 (diff2: 0x00000000)
+06-27 00:27:47.009  3070  3070 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-27 00:27:47.009  3070  3070 D StatusBar: disable1: 0x00000000 -> 0x00000000 (diff1: 0x00000000)
+06-27 00:27:47.009  3070  3070 D StatusBar: disable2: 0x00000000 -> 0x00000000 (diff2: 0x00000000)
+06-27 00:27:47.009  3070  3070 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-27 00:27:47.010  3070  3090 I ndroid.systemu: Background concurrent copying GC freed 526470(25MB) AllocSpace objects, 0(0B) LOS objects, 45% free, 29MB/53MB, paused 83us total 106.060ms
+06-27 00:27:47.010  3070  3070 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+06-27 00:27:47.010  3070  3070 D KeyguardViewMediator: handleNotifyScreenTurningOn
+06-27 00:27:47.012  3070  3070 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-27 00:27:47.015  3070  3070 I chatty  : uid=10071(com.android.systemui) identical 10 lines
+06-27 00:27:47.015  3070  3070 W StaticLayout: maxLineHeight should not be -1.  maxLines:1 lineCount:1
+06-27 00:27:47.016   746   746 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10046, silenced:0)
+06-27 00:27:47.016   746   746 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10046, silenced:0)
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [fnCa_SetMode        ]setMode SUCCESS !!! 4(GF_NAG_MODE)
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [sig_handler_loop    ]g_sensor_status = 0
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [sig_handler_loop    ]sig_handler_loop::screenStatus=0(on:0, off:1), g_mode=4(GF_NAG_MODE),g_state=0(GF_HAL_IDLE)
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [sig_handler_loop    ]screen on : need image , to IMAGE mode
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [sig_handler_loop    ]#####################handler called.7  g_mode = 4(GF_NAG_MODE)  g_state = 0(GF_HAL_IDLE)
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [mutex_get_lock      ]mutex_get_lock
+06-27 00:27:47.017  1464  1691 D FingerGoodix: [navigation_new      ]navigation_new
+06-27 00:27:47.024  1464  1691 D FingerGoodix: [navigation_new      ]status = 0x0(GF_INT_INVALID),key=0x00, Temperature=0x08
+06-27 00:27:47.024  1464  1691 D FingerGoodix: [navigation_new      ]+++++++++++++++++++++++  Invalid interrupt in GF_NAV_MODE
+06-27 00:27:47.024  1464  1691 D FingerGoodix: [mutex_get_unlock    ]mutex_get_unlock
+06-27 00:27:47.042  3070  3070 D keyguard: AsusFuManager:onScreenTurnedOff
+06-27 00:27:47.042  3070  3070 I keyguard: AsusKeyguardDrawingCacheManager:shouldUpdate() exceedOneDay: true, ThemeChanged: true, OrientationChanged: false, ShortCutChanged: false, UserIdChanged: false, localeChanged: false
+06-27 00:27:47.042  3070  3070 I keyguard: WakeLockUtils:acquireForDrawingCache()
+06-27 00:27:47.042  3070  3070 D keyguard: AsusSlideshowManager:onScreenTurnedOff()
+06-27 00:27:47.042  3070  3070 I keyguard: AsusSlideshowSettingPanelManager:onScreenTurnedOff
+06-27 00:27:47.043  1696  1837 I DisplayPowerController: Unblocked screen on after 297 ms
+06-27 00:27:47.043  3070  3070 V HeadsUpManager: releaseAllImmediately
+06-27 00:27:47.043  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:47.044  3070  3070 D keyguard: AsusMediator:setStatusBarState:1
+06-27 00:27:47.044  3070  3070 I keyguard: AsusKeyguardWallpaper:updateVisible:false isFingerprintUnlocking:false pulsing:false
+06-27 00:27:47.044  3070  3070 D keyguard: AsusKGWallpaperManager:notifyBlurEffect: false <tecl : VEbwf> a: 0.0
+06-27 00:27:47.045  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:47.045  3070  3070 D StatusBar: disable1: 0x00000000 -> 0x00000000 (diff1: 0x00000000)
+06-27 00:27:47.045  3070  3070 D StatusBar: disable2: 0x00000000 -> 0x00000000 (diff2: 0x00000000)
+06-27 00:27:47.045  3070  3070 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-27 00:27:47.045  3070  3070 D StatusBar: disable1: 0x00000000 -> 0x00000000 (diff1: 0x00000000)
+06-27 00:27:47.045  3070  3070 D StatusBar: disable2: 0x00000000 -> 0x00000000 (diff2: 0x00000000)
+06-27 00:27:47.045  3070  3070 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-27 00:27:47.047  3070  3070 D keyguard: AsusFuManager:mDisplayState: 4, newState: 2
+06-27 00:27:47.047  3070  3070 D StatusBar: handleSystemKey: 837
+06-27 00:27:47.049  3070  3070 I keyguard: AsusKGWallpaperManager:WHAT_UI_UPDATE_WALLPAPER mPortLockWallpaperDrawable:null,mLandLockWallpaper:null
+06-27 00:27:47.049  3070  3070 I keyguard: AsusKeyguardWallpaper:updateVisible:false isFingerprintUnlocking:false pulsing:false
+06-27 00:27:47.049  3070  3070 I keyguard: AsusKeyguardWallpaper:updateWallpaper
+06-27 00:27:47.096  3070  3070 D NavigationBarView: [updateNavButtonIcons] Home: vis= true alpha: 1.0, Back: vis= true alpha: 1.0, Recent: vis= true alpha: 1.0
+06-27 00:27:47.097  3042  3042 D BtOppService: action : android.intent.action.SCREEN_ON
+06-27 00:27:47.100  4088  4088 D APPLOCK_ScreenReceiver: onReceive ACTION_SCREEN_ON
+06-27 00:27:47.101  1696  4498 V LocSvc_HIDL_Subscription_jni: screen_status_update
+06-27 00:27:47.101  1696  4498 V LocSvc_HIDL_Subscription_jni: [screen_status_update][528] [HC] =>> [HS]
+06-27 00:27:47.102   716   716 V LocSvc_HIDL_IzatSubscription: [screenStatusUpdate][571] [HS] <<<<= [HC]
+06-27 00:27:47.102  1696  4498 V LocSvc_HIDL_Subscription_jni: Exit Result 0
+06-27 00:27:47.111  3485  3485 V ScreenState: onReceive: Intent { act=android.intent.action.SCREEN_ON flg=0x50200010 (has extras) }
+06-27 00:27:47.112  3485  3485 V LightState: registerListener.
+06-27 00:27:47.112  1696  6601 I SensorService: [SensorN] createSensorEventConnection, uid=1000, pid=3485
+06-27 00:27:47.113  1696  3056 I SensorService: [SensorN] EnableSensor, type=5, uid=1000, pid=3485
+06-27 00:27:47.113  3485  3485 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startForegroundService:1537 android.content.ContextWrapper.startForegroundService:676 com.asus.visualmaster.i.a:18 com.asus.visualmaster.b.j$c.onReceive:14 android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0:1395
+06-27 00:27:47.116  1696  1719 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 00:27:47.116  1696  1719 D CompatibilityInfo: applicationDensity - 420
+06-27 00:27:47.116  1696  1719 D CompatibilityInfo: applicationScale - 1.0
+06-27 00:27:47.118   746   746 V APM_AudioPolicyManager: AudioPolicyManager:setRecordSilenced(uid:10022, silenced:0)
+06-27 00:27:47.118   746   746 V AudioFlinger: AudioFlinger::setRecordSilenced(uid:10022, silenced:0)
+06-27 00:27:47.121  3388  4832 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+06-27 00:27:47.121  1696  3056 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 00:27:47.121  1696  3056 D CompatibilityInfo: applicationDensity - 420
+06-27 00:27:47.121  1696  3056 D CompatibilityInfo: applicationScale - 1.0
+06-27 00:27:47.123  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 00:27:47.124 10292 10292 V TaskWatcherService5L: onStartCommand
+06-27 00:27:47.124  3388  4832 D BluetoothAdapter: isLeEnabled(): ON
+06-27 00:27:47.126  3485  3485 D GripBroadcastReceiver: onReceive ACTION_SCREEN_ON
+06-27 00:27:47.126  3485  3485 W MessageQueue: Handler (com.android.settings.gripsensorservice.GripBgHandler) {889a044} sending message to a Handler on a dead thread
+06-27 00:27:47.126  3485  3485 W MessageQueue: java.lang.IllegalStateException: Handler (com.android.settings.gripsensorservice.GripBgHandler) {889a044} sending message to a Handler on a dead thread
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.MessageQueue.enqueueMessage(MessageQueue.java:546)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.enqueueMessage(Handler.java:745)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.sendMessageAtTime(Handler.java:697)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.sendMessageDelayed(Handler.java:667)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.sendMessage(Handler.java:604)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Message.sendToTarget(Message.java:436)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at com.android.settings.gripsensorservice.GripBroadcastReceiver.onReceive(GripBroadcastReceiver.java:32)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.app.LoadedApk$ReceiverDispatcher$Args.lambda$getRunnable$0(LoadedApk.java:1395)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.app.-$$Lambda$LoadedApk$ReceiverDispatcher$Args$_BumDX2UKsnxLVrE6UJsJZkotuA.run(Unknown Source:2)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.handleCallback(Handler.java:873)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Handler.dispatchMessage(Handler.java:99)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.os.Looper.loop(Looper.java:198)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at android.app.ActivityThread.main(ActivityThread.java:6820)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at java.lang.reflect.Method.invoke(Native Method)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+06-27 00:27:47.126  3485  3485 W MessageQueue:  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
+06-27 00:27:47.127  3388  4832 I NearbyDiscovery: (REDACTED) FastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, bleScanAvailable=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+06-27 00:27:47.127 10292 10292 D SplendidCommandAgentClient: onServiceConnected:android.os.BinderProxy@42b6654
+06-27 00:27:47.127 10292 10292 V TaskWatcherService5L: onDestroy
+06-27 00:27:47.127  1696  1803 E NotificationService: Suppressing notification from package com.asus.splendid by user request.
+06-27 00:27:47.136  5943  5943 V DMC->f  : cancelAlarm action=com.asus.dm.DMService.executeupdate ...
+06-27 00:27:47.137  5943  5943 V DMC->f  : cancelAlarm action=com.asus.dm.DMService.UpdateRebootNow ...
+06-27 00:27:47.137  5943  5943 D DMC->DMService: SCREEN ON
+06-27 00:27:47.138  5943  5943 D DMC->DMUtils: Support A/B update.
+06-27 00:27:47.142  3485  3485 D PowerSaverService: mIsScreenOn = true
+06-27 00:27:47.142  3485  3485 D PowerSaverService: screenChgReason = 2
+06-27 00:27:47.143  3485  3485 D SuspiciousAppDetectionService: Recevie SCREEN ON intent
+06-27 00:27:47.143  3485  3485 D SuspiciousAppDetectionService: cancelExactAlarm
+06-27 00:27:47.144  3485  3485 D SuspiciousAppDetectionService: cancelExactAlarm GPS
+06-27 00:27:47.145  3485 10595 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.bindService:1611 android.content.ContextWrapper.bindService:705 com.google.android.gms.common.a.a.a:27 com.google.android.gms.common.internal.ad.a:35 com.google.android.gms.common.internal.ac.a:26
+06-27 00:27:47.155  3388 10571 I NearbySharing: (REDACTED) Screen is already %s, skipping invalidate
+06-27 00:27:47.156  3485  3485 D GripBroadcastReceiver: onReceive ACTION_SCREEN_ON
+06-27 00:27:47.156  3485  8653 D GripBgHandler: Handle MSG_SCREEN_ON
+06-27 00:27:47.156  3485  8653 D AirTriggerUtils: get SettingsProvider: AIR_TRIGGER_ENABLE , get Int =0
+06-27 00:27:47.165  1696  1720 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 00:27:47.165  1696  1720 D CompatibilityInfo: applicationDensity - 420
+06-27 00:27:47.165  1696  1720 D CompatibilityInfo: applicationScale - 1.0
+06-27 00:27:47.179  3388  3388 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.clearcut.bootcount.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentBoundBrokerService }
+06-27 00:27:47.182  4709  4974 W earchbox:searc: Profile data size exceeds 500000 bytes
+06-27 00:27:47.210   700   885 I SDM     : HWCSession::HandleConcurrency: sec_builtin_active 0
+06-27 00:27:47.211   748   748 D SurfaceFlinger: Finished set power mode=2, type=0
+06-27 00:27:47.211  1696  3039 D SurfaceControl: Excessive delay in setPowerMode()
+06-27 00:27:47.212  1696  1837 I SensorService: [SensorN] createSensorEventConnection, uid=1000, pid=1696
+06-27 00:27:47.212  3070  3461 D KeyguardViewMediator: notifyScreenTurnedOn
+06-27 00:27:47.212  3070  3070 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+06-27 00:27:47.212  1696  1837 I SensorService: [SensorN] EnableSensor, type=1, uid=1000, pid=1696
+06-27 00:27:47.212  3070  3070 D keyguard: AsusFuManager:onScreenTurnedOn
+06-27 00:27:47.212  3070  3070 D keyguard: AsusFuManager:onScreenTurnedOn: isEnable: false, isLockOut: false, isinstanceofConcrete: true
+06-27 00:27:47.213   706  1983 E         : [SSC_HAL] batch, type=android.sensor.accelerometer, period=66(ms), timeout=100(ms)
+06-27 00:27:47.213   706  1983 E         : [SSC_HAL] activate, type=android.sensor.accelerometer, Enable
+06-27 00:27:47.214   706  1983 I SSC_HAL : ssc_enable_rt_task:262, ssc_enable_rt_task : true
+06-27 00:27:47.217  1696  1837 D DisplayPowerController: call sendOnStateChangedWithWakelock
+06-27 00:27:47.217  1696  1837 D DisplayPowerController: Finished business...
+06-27 00:27:47.217  1696  1837 W PowerManagerService: Screen on took 532 ms
+06-27 00:27:47.217  1696  1837 I DreamManagerService: Gently waking up from dream.
+06-27 00:27:47.218  1696  1832 I DreamManagerService: Performing gentle wake from dream.
+06-27 00:27:47.223  1696  1719 I DreamManagerService: Leaving dreamland.
+06-27 00:27:47.224  1696  1832 I DreamManagerService: Performing gentle wake from dream.
+06-27 00:27:47.224  1696  1832 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isTest=false, canDoze=true, userId=0
+06-27 00:27:47.224  3070  3070 I DozeMachine: request: current=DOZE_AOD req=FINISH
+06-27 00:27:47.225  1696  1696 W AlarmManager: Unrecognized alarm listener com.android.server.job.controllers.-$$Lambda$IdleController$IdlenessTracker$nTdS-lGBXcES5VWKcJFmQFgU7IU@79ae923
+06-27 00:27:47.225  3070  3070 I DozeMachine: transition: old=DOZE_AOD req=FINISH new=FINISH
+06-27 00:27:47.225  3070  3096 I keyguard: AsusMediator:onDreamingStarted: false
+06-27 00:27:47.227  1696  1720 I SensorService: [SensorN] DisableSensor, type=8, uid=10071, pid=3070
+06-27 00:27:47.228   706  1983 D ALSPS_HAL: ProximitySensor: set EVIOCSCLOCKID = 1
+06-27 00:27:47.228  3070  3070 D keyguard: AsusAlwaysOnManager:updateAlwaysOnServiceState state:5201
+06-27 00:27:47.228  3070  3070 D keyguard: KeyguardUpdateMonitor:handleDreamingStateChanged: false
+06-27 00:27:47.228  3070  3070 D keyguard: KeyguardUpdateMonitor:shouldListenForFingerprint<VoIbgstouda>
+06-27 00:27:47.228  3485  3485 I AlwaysOn:CommonUtils:  ==> support this feaure: true ...
+06-27 00:27:47.228  3070  3070 D keyguard: KeyguardUpdateMonitor:updateFingerprintListeningState should=false, state=0
+06-27 00:27:47.228  3485  3485 D AlwaysOn:CommonUtils:  get always on. (result=true) ...
+06-27 00:27:47.228  3485  3485 I AlwaysOn:AlwaysOnService:  BIND:handleMessage(): Hide AlwaysOn UI ...
+06-27 00:27:47.229  3485  3485 I AlwaysOn:AlwaysOnViewManager:  [VM] dispatchHideView(): isShowing()=true
+06-27 00:27:47.229  3485  3485 I AlwaysOn:AlwaysOnViewManager:  [VM] removeView():
+06-27 00:27:47.229  3485  4251 I AlwaysOn:PermissionUtils:  the permission 1, granted=true ...
+06-27 00:27:47.229   706  1983 E ALSPS_HAL: [Sensor_HAL] ProximitySensor: switch psensor off OK!
+06-27 00:27:47.229  3485  4251 I AlwaysOn:PermissionUtils:  the permission 2, granted=true ...
+06-27 00:27:47.230  3485  4251 I AlwaysOn:PermissionRequest:  check Permission[0] = 0  ...
+06-27 00:27:47.230  3485  4251 I AlwaysOn:PermissionRequest:  check Permission[1] = 0  ...
+06-27 00:27:47.230  3485  4251 I AlwaysOn:PermissionRequest:  check Permission[2] = 0  ...
+06-27 00:27:47.230  3485  4251 I AlwaysOn:PermissionRequest:  check Permission[3] = 0  ...
+06-27 00:27:47.231  3485  4251 I AlwaysOn:PermissionRequest:  check Permission[4] = 0  ...
+06-27 00:27:47.231  3485  4251 I AlwaysOn:PermissionUtils:  whether all permissions are granted:  1=true, 2=true, 3=true ...
+06-27 00:27:47.231  3485  3485 I AlwaysOn:AlwaysOnViewManager:  [VM] removeView(): result=true, view is added=false ...
+06-27 00:27:47.231  3485  3485 I AlwaysOn:ShowAlwaysOnView:  [V] hide(): styleView=com.asus.alwayson.widget.DigitalJWidget{7a92881 V.E...... ........ 0,0-1080,900}
+06-27 00:27:47.236   748  1544 W SurfaceFlinger: Attempting to destroy on removed layer: ca8fc79 Always-on Panel#0
+06-27 00:27:47.241  1696  1696 D AlarmManager: message PENGING_NO_WAKEUP_ALARM
+06-27 00:27:47.243  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============
+06-27 00:27:47.250  3070  3383 D keyguard: AsusKeyguardColorTintMng:isWPChangeFromTheme:false,mIsEnableTint:true,mIsDefaultWallpaper:false,isUsedDefaultLiveWallpaper:true
+06-27 00:27:47.250  3070  3383 D keyguard: AsusKeyguardColorTintMng:WallpaperBitmap is null, can not update
+06-27 00:27:47.250  3070  3383 D keyguard: AsusKeyguardColorTintMng:Current mode is Live WallPaper.
+06-27 00:27:47.251  3070  3383 D keyguard: AsusKeyguardColorTintMng:isUsedDefaultLiveWallpaper:true
+06-27 00:27:47.262  3145  3145 D livewallpaper_log: GLEngine -> onVisibilityChanged: visible= true ,preview= false
+06-27 00:27:47.263  3145  3145 D livewallpaper_log: GameModeLiveWallpaperRenderer -> invalidate requestRender
+06-27 00:27:47.322   706 10598 I SSC_HAL : handle_indication_realtime:352,  SCHED_FIFO(10) for qmi_cbk
+06-27 00:27:47.322   706 10598 I SSC_HAL : handle_sns_std_sensor_event:395, [SSC_HAL] ACCEL, X:0.13 Y:0.13 Z:9.75
+06-27 00:27:47.322   706 10598 I SSC_HAL : handle_sns_std_sensor_event:409, [SSC_HAL] ACCEL, diff x:0.13(0.13) diff y:0.13(0.13) diff z:9.75(9.75)
+06-27 00:27:47.323  1696  1804 V WindowOrientationListener: [SensorN] Result: currentRotation=0, proposedRotation=-1, oldProposedRotation=-1, predictedRotation=-1, timeDeltaMS=-9.223371E12, isAccelerating=false, isFlat=false, isSwinging=false, isOverhead=false, isTouched=false, timeUntilSettledMS=0.0, timeUntilAccelerationDelayExpiredMS=0.0, timeUntilFlatDelayExpiredMS=0.0, timeUntilSwingDelayExpiredMS=0.0, timeUntilTouchDelayExpiredMS=0.0
+06-27 00:27:47.342  3070  3070 W keyguard: AnimationTargetContainer:reset mState:READY
+06-27 00:27:47.342  3070  3070 W keyguard: AnimationTargetContainer:reset mState:READY
+06-27 00:27:47.425   706 10598 I SSC_HAL : handle_sns_std_sensor_event:409, [SSC_HAL] ACCEL, diff x:0.13(0.13) diff y:0.08(0.08) diff z:9.74(9.74)
+06-27 00:27:47.445  3485  3485 D SuspiciousAppDetectionService: MSG_SHOW_ABNORMAL_APP_NOTIFICATION
+06-27 00:27:47.445  3485  3485 D SuspiciousAppDetectionService: showAppPowerConsumptionNotification on=false
+06-27 00:27:47.446  3485  3485 D SuspiciousAppDetectionService: showAbnormalAppsNotification on=false
+06-27 00:27:47.446  3485  3485 D SuspiciousAppDetectionService: auto kill IsAutoKillDrainApps is, result=false
+06-27 00:27:47.527   706 10598 I SSC_HAL : handle_sns_std_sensor_event:409, [SSC_HAL] ACCEL, diff x:0.11(0.11) diff y:0.09(0.09) diff z:9.74(9.74)
+06-27 00:27:47.544   748   748 E BufferQueueConsumer: BufferQueueConsumer mLowLatencys=0
+06-27 00:27:47.810  3070  3070 V ReflectionMethods: ========ReflectionMethods.getObject android.view.LayoutParams.LayoutParams.PRIVATE_FLAG_STATUS_BAR_EXPANDED = false ===============

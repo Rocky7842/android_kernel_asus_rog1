@@ -4124,6 +4124,8 @@ int dsi_panel_enable(struct dsi_panel *panel)
 	struct mipi_dsi_device *dsi;
 	enum dsi_cmd_set_type cmd_type;
 
+	printk("[Rocky7842] Entering dsi_panel_enable\n");
+
 	if (!panel) {
 		pr_err("Invalid params\n");
 		return -EINVAL;
@@ -4186,6 +4188,9 @@ int dsi_panel_enable(struct dsi_panel *panel)
 
 	panel->panel_initialized = true;
 	mutex_unlock(&panel->panel_lock);
+
+	printk("[Rocky7842] Leaving dsi_panel_enable\n");
+
 	return rc;
 }
 
@@ -4251,6 +4256,8 @@ int dsi_panel_disable(struct dsi_panel *panel)
 {
 	int rc = 0;
 
+	printk("[Rocky7842] Entering dsi_panel_disable\n");
+
 	if (!panel) {
 		pr_err("invalid params\n");
 		return -EINVAL;
@@ -4278,6 +4285,9 @@ int dsi_panel_disable(struct dsi_panel *panel)
 
 error:
 	mutex_unlock(&panel->panel_lock);
+
+	printk("[Rocky7842] Leaving dsi_panel_disable\n");
+
 	return rc;
 }
 
